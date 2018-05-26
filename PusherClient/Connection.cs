@@ -62,7 +62,7 @@ namespace PusherClient
             ChangeState(ConnectionState.Connecting);
             _allowReconnect = true;
 
-            _websocket = new WebSocket(_url);
+            _websocket = new WebSocket(_url, "", WebSocketVersion.Rfc6455);
             _websocket.EnableAutoSendPing = true;
             _websocket.AutoSendPingInterval = 1;
             _websocket.Opened += websocket_Opened;

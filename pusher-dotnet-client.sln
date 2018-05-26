@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PusherClient", "PusherClient\PusherClient.csproj", "{9E30E755-C00E-4BF7-B56B-8F2D836FBA60}"
 EndProject
@@ -16,6 +16,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Files", "Files", "{2D9F07A0
 		pusher-dotnet-client.nuspec = pusher-dotnet-client.nuspec
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSocket4Net.Net40", "..\WebSocket4Net\WebSocket4Net\WebSocket4Net.Net40.csproj", "{875B0B70-9919-49A5-A00E-752929FF4B5A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,8 +37,15 @@ Global
 		{218EE921-5E27-4E15-9382-42DD2F40857C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{218EE921-5E27-4E15-9382-42DD2F40857C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{218EE921-5E27-4E15-9382-42DD2F40857C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{875B0B70-9919-49A5-A00E-752929FF4B5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{875B0B70-9919-49A5-A00E-752929FF4B5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{875B0B70-9919-49A5-A00E-752929FF4B5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{875B0B70-9919-49A5-A00E-752929FF4B5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F7F24F69-E22B-4C07-95AF-459E87AA6F10}
 	EndGlobalSection
 EndGlobal
